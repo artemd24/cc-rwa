@@ -224,7 +224,7 @@ export function landing() {
   )
 }
 
-function BarChart(props) {
+function BarChart(props: any) {
   return (
     <div {...props}>
       <ResponsiveBar
@@ -278,7 +278,7 @@ function BarChart(props) {
 }
 
 
-function BarChartIcon(props) {
+function BarChartIcon(props: any) {
   return (
     <svg
       {...props}
@@ -300,7 +300,7 @@ function BarChartIcon(props) {
 }
 
 
-function LineChart(props) {
+function LineChart(props: any) {
   return (
     <div {...props}>
       <ResponsiveLine
@@ -374,7 +374,7 @@ function LineChart(props) {
 }
 
 
-function PieChart(props) {
+function PieChart(props: any) {
   return (
     <div {...props}>
       <ResponsivePie
